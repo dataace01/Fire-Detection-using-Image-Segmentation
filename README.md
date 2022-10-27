@@ -7,7 +7,7 @@ We will be using image segmentation, in which we group a similar set of pixels, 
 Further, we will use the Mask RCNN model to train and build predictions over our input images. Mask RCNN is a deep neural network algorithm that is used for solving segmentation problems.
 This project aims to build a deep neural network model that will give the best accuracy in detecting fire in an image.
 ## Data Description
-- In this case, we use 20 fire images for the training set and ten fire images for the validation set, and one image for test data. These images can be JPG, PNG, TIF formats.
+- In this case, I use 20 fire images for the training set and ten fire images for the validation set, and one image for test data. These images can be JPG, PNG, TIF formats.
 - Via_project.json is the annotation file containing the region of interest marked.
 ## Aim
 This project aims to make predictions over images and detect mask and bounding boxes around the area of interest, i.e., mask and bounding around the fire in a given image.
